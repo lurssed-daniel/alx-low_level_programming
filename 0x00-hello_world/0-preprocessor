@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -E your_c_file.c > c_output.txt
+gcc -E $CFILE -o c
