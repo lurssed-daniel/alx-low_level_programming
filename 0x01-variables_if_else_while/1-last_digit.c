@@ -1,18 +1,12 @@
-/*
- * File: 1-last_digit.c
- * Auth: L. Daniel Nyanjom 
- */
-
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
 
 /**
  * main - Entry point
- *
+ * number stored in the variable n
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
     int n;
