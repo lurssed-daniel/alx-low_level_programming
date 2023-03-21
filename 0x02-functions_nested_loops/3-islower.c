@@ -7,7 +7,7 @@
  *
  * Return: 1 if c is lowercase, 0 otherwise.
  */
-int _islower(int c)
+int islower(int c)
 {
     if (c >= 'a' && c <= 'z')
         return (1);
@@ -24,11 +24,11 @@ int main(void)
 {
     int r;
 
-    r = _islower('H');
+    r = islower('H');
     putchar(r + '0');
-    r = _islower('o');
+    r = islower('o');
     putchar(r + '0');
-    r = _islower(108);
+    r = islower(108);
     putchar(r + '0');
     putchar('\n');
 
