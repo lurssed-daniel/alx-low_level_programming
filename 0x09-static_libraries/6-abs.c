@@ -1,15 +1,15 @@
-i#include "main.h"
+#include "main.h"
+
 /**
-* _abs - prints the absolute value of a number
-*@i: number targeted
-*Return: returns 0
-*/
-int _abs(int i)
+ * _abs - Computes the absolute value of an integer.
+ * @n: The integer to be computed.
+ *
+ * Return: The absolute value of the integer.
+ */
+int _abs(int n)
 {
-if (i > 0)
-return (i);
-else if (i < 0)
-return (-i);
-else
-return (0);
+	if (n >= 0)
+		return (n);
+	else
+		return (-n);
 }
