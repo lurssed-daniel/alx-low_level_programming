@@ -6,6 +6,7 @@
  * @n: num 1
  * @m: num 2
  * Return: num of bits
+ * not allowed to use % or /
  */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
