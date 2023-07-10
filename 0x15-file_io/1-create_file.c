@@ -1,6 +1,7 @@
 #include "main.h"
 
 /**
+ * create_file - Creates a file.
  * _strlen - a function that appends text at the end of a file.
  * @str: string
  * Return: length

@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * _strlen - find length of string
- * @str: string
- * Return: length
+ * append_text_to_file - Appends text at the end of a file.
+ * _strlen - find length of string.
+ * @str: string.
+ * Return: length.
  */
 int _strlen(char *str)
 {
